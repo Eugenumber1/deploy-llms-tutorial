@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from typing import Union
+
 from rag import scrape_url, create_retriever, ask_rag
 
 app = FastAPI()
